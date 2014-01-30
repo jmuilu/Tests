@@ -1,0 +1,10 @@
+install json-ld parser into local maven repo and setup maven path in build.sbt accordingly
+install sbt 0.13 (http://www.scala-sbt.org/)
+start  sbt 
+and give commands in sbt:
+compile
+run 
+
+Test1 uses json-ld parser
+Test2 uses jena parser
+
