@@ -22,3 +22,7 @@ resolvers += "Local Maven Repository" at "file:///"+Path.userHome+"/.m2/reposito
 
 libraryDependencies += "com.github.jsonld-java" % "jsonld-java-jena" % "0.3-SNAPSHOT"
 
+libraryDependencies += "com.github.jsonld-java" % "jsonld-java-sesame" % "0.3-SNAPSHOT"
+
+libraryDependencies += "org.openrdf.sesame" % "sesame-rio-turtle" % "2.7.10"
+

@@ -16,12 +16,11 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 
 public class Test2 {
 
-  public static void init() {
+  static {
 		JenaJSONLD.init();
   }
 
   public static void main(String[] args) throws Exception {
-	JenaJSONLD.init();
                 final String turtle = "@prefix const: <http://foo.com/> .\n"
                 + "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n"
                 + "<http://localhost:8080/foo1> const:code \"123\" .\n"
